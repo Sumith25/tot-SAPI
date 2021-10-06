@@ -1,0 +1,26 @@
+[
+  {
+    "availableSeats": 20,
+    "departureDateTime": "2019-04-12T16:25:41.090Z",
+    "travelRoute": {
+      "originLocation": {
+        "locationCode": "BEN-SG"
+      },
+      "destinationLocation": {
+        "locationCode": "KLG-MY"
+      }
+    }
+  },
+  {
+    "availableSeats": 30,
+    "departureDateTime": "2019-04-12T16:25:41.090Z",
+    "travelRoute": {
+      "originLocation": {
+        "locationCode": "BEN-SG"
+      },
+      "destinationLocation": {
+        "locationCode": "KLG-MY"
+      }
+    }
+  }
+]

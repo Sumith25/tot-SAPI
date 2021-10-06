@@ -1,0 +1,46 @@
+{
+  "configs": [
+    "global/retrievetravelontiproutesandschedulesapi.xml",
+    "implementation/tot-getSchedules.xml",
+    "implementation/tot-getRoutes.xml",
+    "global/globalElements.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:tot-sapi:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "log4j2.xml",
+        "config/local.yaml",
+        "implementation/tot-getSchedules.xml",
+        "implementation/tot-getRoutes.xml",
+        "api/retrievetravelontiproutesandschedulesapi.raml",
+        "api/libraries/schedules/datatypes/getSchedule200Response.raml",
+        "api/libraries/schedules/examples/getSchedules200Response.json",
+        "api/libraries/schedules/schedules-buisness-library.raml",
+        "api/libraries/common/traits/transactionId-header-trait.raml",
+        "api/libraries/common/traits/queryParams-destinationLocationCode-traits.raml",
+        "api/libraries/common/traits/queryParams-departureLocationCodeTraits.raml",
+        "api/libraries/common/common-buisness-library.raml",
+        "api/libraries/common/datatypes/commonErrorResponse.raml",
+        "api/libraries/common/examples/common404Response.json",
+        "api/libraries/common/examples/common500Response.json",
+        "api/libraries/common/examples/common400Response.json",
+        "api/libraries/routes/routes-buisness-library.raml",
+        "api/libraries/routes/datatypes/getRoutes200ResponseType.raml",
+        "api/libraries/routes/examples/getRoutes200Response.json",
+        "global/globalElements.xml",
+        "global/retrievetravelontiproutesandschedulesapi.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
