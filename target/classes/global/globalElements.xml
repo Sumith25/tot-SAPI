@@ -11,6 +11,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
         <http:listener-connection host="${http.listener.host}" port="${http.listener.port}" />
     </http:listener-config>
     <apikit:config name="retrievetravelontiproutesandschedulesapi-config" api="api/retrievetravelontiproutesandschedulesapi.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
-	<configuration-properties doc:name="Configuration properties" doc:id="badc0294-48da-4890-83e8-d95b0e624d13" file="config/local.yaml" />
+	<configuration-properties doc:name="Configuration properties" doc:id="badc0294-48da-4890-83e8-d95b0e624d13" file="config/${MULE_ENV}.yaml" />
     
 	</mule>
