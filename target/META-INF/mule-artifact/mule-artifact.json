@@ -16,6 +16,7 @@
       "exportedPackages": [],
       "exportedResources": [
         "log4j2.xml",
+        ".DS_Store",
         "config/local.yaml",
         "implementation/tot-getSchedules.xml",
         "implementation/tot-getRoutes.xml",
