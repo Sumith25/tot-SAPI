@@ -9,7 +9,7 @@
   "redeploymentEnabled": true,
   "name": "com.mycompany:tot-sapi:1.0.0-SNAPSHOT",
   "minMuleVersion": "4.3.0",
-  "requiredProduct": "MULE",
+  "requiredProduct": "MULE_EE",
   "classLoaderModelLoaderDescriptor": {
     "id": "mule",
     "attributes": {
@@ -18,6 +18,7 @@
         "log4j2.xml",
         ".DS_Store",
         "config/local.yaml",
+        "application-types.xml",
         "implementation/tot-getSchedules.xml",
         "implementation/tot-getRoutes.xml",
         "api/retrievetravelontiproutesandschedulesapi.raml",
